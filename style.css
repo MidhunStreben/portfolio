@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./image/pythonWallpaper.jpg');
+    background-size: cover; 
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+   
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile-img{
+    max-width: 50%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+   
+}
+h2{
+    text-align: center;
+}       
+.about-me {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.about-me h2 {
+    font-family: sans-serif;
+}
+
+.about-me p {
+    margin-bottom: 20px;
+}
+
+.resume-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+
+.resume-link a {
+    color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 24px; 
+    }
+}
